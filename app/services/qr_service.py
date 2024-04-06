@@ -2,7 +2,7 @@ import logging
 from pathlib import Path
 import qrcode
 
-def generate_qr_code(data: str, path: Path, fill_color: str = 'red', back_color: str = 'white', size: int = 10):
+def generate_qr_code(data: str, path: Path, fill_color: str = 'black', back_color: str = 'white', size: int = 10):
     try:
         qr = qrcode.QRCode(version=1, box_size=size, border=5)
         qr.add_data(data)
