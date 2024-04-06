@@ -2,3 +2,7 @@ venv
 _*pycache*_
 
 .gitignore
+
+/images
+
+images/
